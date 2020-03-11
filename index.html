@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web analyics Assignments</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> -->
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
+	<style type="text/css">
+        #ballContainer {
+            float: left;
+            position: relative;
+        }
+ 
+        .top-buffer {
+            margin-top: 20px;
+        }
+		
+		
+    </style>
+  <script type="text/javascript">
+        $(function() {
+            moveBall();
+        });
+ 
+        function moveBall() {
+            $("#ballContainer:first").animate({
+                left:200
+            }, {
+                duration: 3000,
+                complete: function() {
+                    $("#ballContainer:first").animate({
+                        left:200
+                    }, {
+                        duration: 3000,
+                        complete: function() {
+                            moveBall();
+                        }
+                    });
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+<br>
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h2>Assignment 0 & 1</h2>
+</div>
+<br>
+<div class="container">
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" href="Index">Index</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"  href="Introduction.html">Introduction</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"  href="Web Analytics.html">Web Analytics</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link"  href="Big5.html">Big 5</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"  href="SVG.html">SVG</a>
+    </li>
+  </ul>
+</div>
+<div class="container" style="margin-top:1px">
+<h2 style="text-align:center"> <u> Short Biography</u> </h2>
+<div class="row">
+    <div class="col-sm-4">
+	  <div  id="ballContainer"> 
+            <img src="dfs.png" class="rounded-circle" alt="Cinque Terre" width="250" height="236">                 						
+      </div>
+	</div>
+	<div class="col-sm-8">
+      <p>Mesafint Fanuel is a Computer Science Student who is doing his <b> PHD at North Carolina A&T State University.</b> He recieved his Bachelors in Computer Science and Masters
+         in Computer Science from <a href="http://www.jsums.edu">Jackson State University</a> in 2015 and 2018 respectively. He has been involved in various research projects focused around software development
+         and their applications. A native of Ethiopia he is bilingual speaking English and Amharic his first Language. </p>	
+   </div>
+</div>   
+<div class="row">
+    <div class="col-sm-8">
+		<div id="ballContainer2">
+			<p> Mesafint is very passionate about the technology(Computerization and and economics. He is especially interested in discovering ways of how networking and computerization could facilitate econmic development. He believes database 
+			systems<mark>(their counterpart big data anlaytics)</mark> could aid in the understanding of hitherto complex relationships of the  free market. He believes an accurate mapping of supply chains and trade
+			networks of various markets is on the horizon as firms digitalize most of their operations,increasingly aggregate capacity and information transparency expands.	 </p>	
+		</div>
+	</div>
+	<div class="col-sm-4">
+	 <div  id="ballContainer3"> 
+            <img style="img-align:right" src="Second Pic.png" class="rounded-circle" alt="Cinque Terre" width="304" height="236">                 						
+      </div>
+   </div>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+	  <div  id="ballContainer5"> 
+            <img src="tpic.png" class="rounded-circle" alt="Cinque Terre" width="250" height="236">                 						
+      </div>
+	</div>
+	<div class="col-sm-8">
+	 <p> On a second note he believes in the optimization of traditional economic sectors through the use of: <li> cyber-physical systems </li><br>
+	 <li> expansion of economic interconnectivity between city and rural areas of the developing world.</li><br>
+	 Coming from a country know for having food insecurites, he has always felt it important to research on methods of improving agricultural productivity. While a lot of research is being done in this area by established minds, he wants to
+        contribute to this national need by finding means of decreasing the cost of mechanization through computerization. One obstacle to modenizing agriculture on a national scale is the cost of procuring equipment and the availability
+        of market information about agiricultres capital goods market to a significant number of well to do individual farmers. The need for market information can effectively be tackled using dedicated networking systems for conveying
+        global<i> <b>capital goods market</b></i> information to local enclaves. Inteconnectivity of disparate communities using dedicated agricultural networks or their sheer existence can facilitate the means of aggregating financial resources that can flow from within and outside local communities.
+		Such a dedicated network can aid in driving down costs for individual farmers and sharing equipments. </p>
+	</div>
+</div>      
+		 
+   
+  </div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Footer</p>
+</div>
+</body>
+</html>
