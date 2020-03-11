@@ -1,0 +1,24 @@
+
+.str {
+    fill: blue;
+    stroke: yellow;
+    stroke-width: 15;
+  
+}
+
+.kib{
+    fill: blue;
+    
+}
+.bnrg{
+    fill:green ;
+    }
+.bnry{
+    fill:yellow ;
+    }
+.bnrr{
+    fill:red ;
+    }
+.container{
+	margin-top:30px;
+}
